@@ -7,6 +7,10 @@ const Footer = () => {
     window.open('https://www.socialrise.ru/privacy', '_blank');
   };
 
+  const handleTermsClick = () => {
+    window.open('https://www.socialrise.ru/terms_of_service', '_blank');
+  };
+
   return (
     <footer className="bg-gray-900 text-white py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -89,7 +93,12 @@ const Footer = () => {
               >
                 Политика конфиденциальности
               </button>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Пользовательское соглашение</a>
+              <button 
+                onClick={handleTermsClick}
+                className="text-gray-400 hover:text-white transition-colors text-sm"
+              >
+                Пользовательское соглашение
+              </button>
               <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Политика cookies</a>
             </div>
           </div>
