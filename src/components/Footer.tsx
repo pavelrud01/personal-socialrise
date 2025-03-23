@@ -89,7 +89,7 @@ const Footer = () => {
               >
                 Политика конфиденциальности
               </button>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Условия использования</a>
+              <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Пользовательское соглашение</a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Политика cookies</a>
             </div>
           </div>
